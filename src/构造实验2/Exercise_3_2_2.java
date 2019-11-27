@@ -1,9 +1,4 @@
 package 构造实验2;
-
-/*
- * 设
- * 方案2：让Exercise继承ArayList，同时实现formateAndDisplay
- */
 import java.util.Random;
 import java.util.ArrayList;
 public class Exercise_3_2_2 extends ArrayList<BinaryOperation_3_2> {
@@ -46,8 +41,7 @@ public class Exercise_3_2_2 extends ArrayList<BinaryOperation_3_2> {
 		}
 	}
 	
-	public void formattedDisplay (int columns){
-		// 0 < columns 
+	public void formattedDisplay (int columns){ 
 		int column=1;  
 		int count = 1;
 		for(BinaryOperation_3_2 op: this) {
